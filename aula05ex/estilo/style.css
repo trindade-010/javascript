@@ -1,0 +1,29 @@
+@charset "UTF-8";
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+body{
+    background-color: #35B6E6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+main section{
+background-color: white;
+padding: 15px;
+margin: auto;
+border-radius: 20px;
+width: 600px;
+height: 450px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+}
+footer > p {
+text-align: center;
+color: white;
+font:normal 30px Arial, Helvetica, sans-serif;
+font-style: italic;
+}
