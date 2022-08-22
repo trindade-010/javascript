@@ -10,20 +10,30 @@
             font:normal 18px Arial;
 
         }
+        div#res{
+            margin-top: 20px;
+        }
       
     </style>
 </head>
 <body>
     <h1>Sistema de Nacionalidade</h1>
-   <form action="" method="post" autocomplete="on">
-    <label for="inome">Nome:</label>
-    <input type="text" name="nome" id="inome"> <br>
-    <label for="idade">Idade:</label>
-    <input type="number" name="idade" id="iidade"><br>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
-
-   </form>
+    <label for="inacio">Coloque o seu país: <input type="text" name="nacio" id="inacio"></label>
+    <input type="button" value="Verificar" onclick= 'verificar()'>
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var na = window.document.getElementById('inacio')
+            var a = String(inacio.value)
+            var país = document.querySelector('div#res')
+          
+            if (a == 'Brasil'){
+                res.innerHTML += `Você mora no ${a}, você é <strong>Brasileiro</strong>`
+            } else { 
+                res.innerHTML += `Você mora no(a) ${a}, você é <strong>Estrangeiro</strong>`
+            }
+        }
+    </script>
 
 </body>
 </html>
