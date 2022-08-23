@@ -6,6 +6,7 @@
 body{
     background-color: #35B6E6;
     font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
 }
 header h1{
     text-align: center;
@@ -18,12 +19,18 @@ padding: 15px;
 margin: auto;
 border-radius: 20px;
 width: 600px;
-height: 450px;
+height: 400px;
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+}
+div{
+    text-align: center;
+    padding: 2px;
+    font-size: 30px;
+
 }
 footer > p {
 text-align: center;
 color: white;
 font:normal 30px Arial, Helvetica, sans-serif;
 font-style: italic;
-}
+} 
